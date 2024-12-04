@@ -29,7 +29,7 @@ Per executar aquest projecte, cal tenir el següent:
 
 ---
 
-## 🔧 Funcionalitats Principals
+## 🔧 Funcionalitats Principals <a id="🔧-funcionalitats-principals"></a>
 
 - **Operacions bàsiques:** Suma, resta, multiplicació i divisió.
 - **Operacions encadenades:** Pots realitzar diverses operacions de manera contínua.
@@ -38,7 +38,7 @@ Per executar aquest projecte, cal tenir el següent:
 
 ---
 
-## 📝 Guia d'Instal·lació
+## 📝 Guia d'Instal·lació <a id="📝-guia-dinstal·lació"></a>
 
 1. **Clonar el repositori:**
 
@@ -56,7 +56,7 @@ Per executar aquest projecte, cal tenir el següent:
 
 ---
 
-## 💡 Guia d'Ús
+## 💡 Guia d'Ús <a id="💡-guia-dús"></a>
 
 ### 1. **Introduir números**
    - Fes clic als botons numèrics (0-9) per afegir números a l'operació.
@@ -72,7 +72,7 @@ Per executar aquest projecte, cal tenir el següent:
 
 ---
 
-## 📸 Exemples d'Ús i Captures de Pantalla
+## 📸 Exemples d'Ús i Captures de Pantalla <a id="📸-exemples-dús-i-captures-de-pantalla"></a>
 
 ### Pantalla inicial
 
@@ -88,13 +88,13 @@ Per executar aquest projecte, cal tenir el següent:
 
 ---
 
-## 📝 Conclusions
+## 📝 Conclusions <a id="📝-conclusions"></a>
 
 Aquest projecte és una **calculadora funcional i senzilla** dissenyada per ser fàcil d'usar i accessible. A través d'aquest projecte, he après a treballar amb WPF i a dissenyar una interfície d'usuari intuïtiva. A més, he implementat **gestió d'errors** per millorar l'experiència de l'usuari i evitar errors en operacions incorrectes. Els passos següents podrien incloure l'ampliació de la funcionalitat per suportar operacions més complexes o la millora de la interfície amb animacions o efectes visuals.
 
 ---
 
-## 📜 Llicència i Autoria
+## 📜 Llicència i Autoria <a id="📜-llicència-i-autoria"></a>
 
 - **Autoria:** [Joel Margenet](https://github.com/JoelMargenet)
 - **Llicència:** Aquest projecte està llicenciat sota la **Llicència MIT**. Consulta el fitxer [LICENSE](LICENSE) per a més detalls.
