@@ -8,13 +8,14 @@ Aquest projecte és una **calculadora bàsica** desenvolupada en **WPF (Windows 
 
 ## 📑 Índex
 
-1. [Requisits del Sistema](#requisits-del-sistema)
-2. [Funcionalitats Principals](#funcionalitats-principals)
-3. [Guia d'Instal·lació](#guia-dinstal·lació)
-4. [Guia d'Ús](#guia-dús)
-5. [Exemples d'Ús i Captures de Pantalla](#exemples-dús-i-captures-de-pantalla)
-6. [Conclusió](#conclusió)
-7. [Llicència i Autoria](#llicència-i-autoria)
+1. [Requisits del Sistema](#⚙️-requisits-del-sistema)
+2. [Funcionalitats Principals](#🔧-funcionalitats-principals)
+3. [Guia d'Instal·lació](#📝-guia-dinstal·lació)
+4. [Guia d'Ús](#💡-guia-dús)
+5. [Exemples d'Ús i Captures de Pantalla](#📸-exemples-dús-i-captures-de-pantalla)
+6. [Conclusió](#📝-conclusions)
+7. [Llicència i Autoria](#📜-llicència-i-autoria)
+
 
 ---
 
