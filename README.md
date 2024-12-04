@@ -19,7 +19,7 @@ Aquest projecte és una **calculadora bàsica** desenvolupada en **WPF (Windows 
 
 ---
 
-## ⚙️ Requisits del Sistema
+## ⚙️ Requisits del Sistema <a id="⚙️-requisits-del-sistema"></a>
 
 Per executar aquest projecte, cal tenir el següent:
 
