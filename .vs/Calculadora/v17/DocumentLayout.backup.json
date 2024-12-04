@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\joelm\\source\\repos\\Calculadora\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{82B72A2B-7D9E-4DA7-99AA-6764BAC8B4A7}|Calculadora\\Calculadora.csproj|c:\\users\\joelm\\source\\repos\\calculadora\\calculadora\\calculadora.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{82B72A2B-7D9E-4DA7-99AA-6764BAC8B4A7}|Calculadora\\Calculadora.csproj|solutionrelative:calculadora\\calculadora.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{82B72A2B-7D9E-4DA7-99AA-6764BAC8B4A7}|Calculadora\\Calculadora.csproj|c:\\users\\joelm\\source\\repos\\calculadora\\calculadora\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{82B72A2B-7D9E-4DA7-99AA-6764BAC8B4A7}|Calculadora\\Calculadora.csproj|solutionrelative:calculadora\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82B72A2B-7D9E-4DA7-99AA-6764BAC8B4A7}|Calculadora\\Calculadora.csproj|c:\\users\\joelm\\source\\repos\\calculadora\\calculadora\\calculadora.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{82B72A2B-7D9E-4DA7-99AA-6764BAC8B4A7}|Calculadora\\Calculadora.csproj|solutionrelative:calculadora\\calculadora.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{82B72A2B-7D9E-4DA7-99AA-6764BAC8B4A7}|Calculadora\\Calculadora.csproj|c:\\users\\joelm\\source\\repos\\calculadora\\calculadora\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,27 +39,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Calculadora",
-              "DocumentMoniker": "C:\\Users\\joelm\\source\\repos\\Calculadora\\Calculadora\\Calculadora.csproj",
-              "RelativeDocumentMoniker": "Calculadora\\Calculadora.csproj",
-              "ToolTip": "C:\\Users\\joelm\\source\\repos\\Calculadora\\Calculadora\\Calculadora.csproj",
-              "RelativeToolTip": "Calculadora\\Calculadora.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-04T01:46:34.167Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "README.md",
               "DocumentMoniker": "C:\\Users\\joelm\\source\\repos\\Calculadora\\Calculadora\\README.md",
               "RelativeDocumentMoniker": "Calculadora\\README.md",
               "ToolTip": "C:\\Users\\joelm\\source\\repos\\Calculadora\\Calculadora\\README.md",
               "RelativeToolTip": "Calculadora\\README.md",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAFMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2024-12-04T01:46:48.569Z",
+              "WhenOpened": "2024-12-04T02:05:25.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Calculadora.csproj",
+              "DocumentMoniker": "C:\\Users\\joelm\\source\\repos\\Calculadora\\Calculadora\\Calculadora.csproj",
+              "RelativeDocumentMoniker": "Calculadora\\Calculadora.csproj",
+              "ToolTip": "C:\\Users\\joelm\\source\\repos\\Calculadora\\Calculadora\\Calculadora.csproj",
+              "RelativeToolTip": "Calculadora\\Calculadora.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-04T01:46:34.167Z",
               "EditorCaption": ""
             },
             {
@@ -72,8 +72,7 @@
               "RelativeToolTip": "Calculadora\\AssemblyInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T01:17:22.023Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T01:17:22.023Z"
             },
             {
               "$type": "Document",
@@ -85,8 +84,7 @@
               "RelativeToolTip": "Calculadora\\App.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAYwA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T01:17:19.574Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T01:17:19.574Z"
             },
             {
               "$type": "Document",
@@ -97,8 +95,7 @@
               "ToolTip": "C:\\Users\\joelm\\source\\repos\\Calculadora\\Calculadora\\MainWindow.xaml",
               "RelativeToolTip": "Calculadora\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-04T01:14:01.458Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T01:14:01.458Z"
             },
             {
               "$type": "Document",
@@ -110,8 +107,7 @@
               "RelativeToolTip": "Calculadora\\MainWindow.xaml.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAA1wFQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T01:13:55.258Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T01:13:55.258Z"
             }
           ]
         }

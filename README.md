@@ -1,83 +1,100 @@
-# Calculadora
+ï»¿# Calculadora
 
-## Descripció
+## DescripciÃ³
 
-Aquest projecte és una calculadora bàsica desenvolupada en WPF (Windows Presentation Foundation) que permet realitzar operacions matemàtiques senzilles com sumes, restes, multiplicacions i divisions. La calculadora gestiona també operacions encadenades, mostrant resultats en temps real, i inclou un botó per esborrar l'última operació o reiniciar la calculadora.
+Aquest projecte Ã©s una **calculadora bÃ sica** desenvolupada en **WPF (Windows Presentation Foundation)** per a realitzar operacions matemÃ tiques senzilles com sumes, restes, multiplicacions i divisions. La calculadora inclou un disseny intuÃ¯tiu i funcional, amb gestiÃ³ d'errors i operacions encadenades, a mÃ©s d'una interfÃ­cie neta i fÃ cil d'usar.
 
-La calculadora està dissenyada per ser intuïtiva i fàcil d'usar, amb un disseny senzill i colors distintius per als botons d'operació i especials.
+---
 
-## Característiques
+## ğŸ“‘ Ãndex
 
-- **Operacions bàsiques:** +, -, *, /
-- **Resultats en temps real:** Els resultats es mostren immediatament després de prémer el botó "=".
-- **Gestió d'errors:** Manejament de casos d'errors com operacions incorrectes (p. ex., "5 + =") i divisió per zero.
-- **Interfície intuïtiva:** Botons arrodonits i colors fàcils de distingir per als operadors i botons especials.
+1. [Requisits del Sistema](#requisits-del-sistema)
+2. [Funcionalitats Principals](#funcionalitats-principals)
+3. [Guia d'InstalÂ·laciÃ³](#guia-dinstalÂ·laciÃ³)
+4. [Guia d'Ãšs](#guia-dÃºs)
+5. [Exemples d'Ãšs i Captures de Pantalla](#exemples-dÃºs-i-captures-de-pantalla)
+6. [ConclusiÃ³](#conclusiÃ³)
+7. [LlicÃ¨ncia i Autoria](#llicÃ¨ncia-i-autoria)
 
-## Requisits
+---
 
-Per executar aquesta aplicació, necessites tenir instal·lat el següent:
-- Visual Studio amb suport per al desenvolupament en **C#** i **WPF**.
-- .NET Framework 4.7.2 o superior.
+## âš™ï¸ Requisits del Sistema
 
-## Com executar el projecte
+Per executar aquest projecte, cal tenir el segÃ¼ent:
 
-1. **Clona el repositori:**
+- **Visual Studio** amb suport per a desenvolupament WPF (Windows Presentation Foundation).
+- **.NET Framework 4.7.2** o superior.
+- **Sistema Operatiu:** Windows 10 o superior.
+
+---
+
+## ğŸ”§ Funcionalitats Principals
+
+- **Operacions bÃ siques:** Suma, resta, multiplicaciÃ³ i divisiÃ³.
+- **Operacions encadenades:** Pots realitzar diverses operacions de manera contÃ­nua.
+- **GestiÃ³ d'errors:** GestiÃ³ de casos com entrades incorrectes (p. ex., "5 + =") i divisiÃ³ per zero.
+- **InterfÃ­cie intuÃ¯tiva:** Un disseny clar amb botons arrodonits i colors diferenciats per facilitar l'Ãºs.
+
+---
+
+## ğŸ“ Guia d'InstalÂ·laciÃ³
+
+1. **Clonar el repositori:**
 
     ```bash
     git clone https://github.com/JoelMargenet/Calculadora.git
     ```
 
-2. **Obre el projecte a Visual Studio.**
-   - Obre `Calculadora.sln` al directori del projecte clonado.
+2. **Obrir el projecte a Visual Studio:**
 
-3. **Construeix i executa l'aplicació:**
-   - A Visual Studio, fes clic a "Start" per compilar i executar el projecte.
+   - Obre `Calculadora.sln` amb Visual Studio.
 
-## Ús
+3. **Construir i executar el projecte:**
 
-1. **Introduir números:** Prem els botons numèrics per afegir números a l'operació.
-2. **Afegir operadors:** Prem els botons d'operació (p. ex., `+`, `-`, `*`, `/`) per afegir operadors a l'operació.
-3. **Mostrar el resultat:** Prem el botó "=" per calcular el resultat de l'operació actual.
-4. **Esborrar operació:** Prem el botó "C" per esborrar l'operació actual i reiniciar la calculadora.
+   - Clica a **Start** per construir i executar l'aplicaciÃ³.
 
-## Captures de pantalla
+---
 
-A continuació es mostren algunes captures de pantalla que il·lustren l'aplicació en ús.
+## ğŸ’¡ Guia d'Ãšs
+
+### 1. **Introduir nÃºmeros**
+   - Fes clic als botons numÃ¨rics (0-9) per afegir nÃºmeros a l'operaciÃ³.
+
+### 2. **Afegir operadors**
+   - Fes clic als botons de l'operador (p. ex., `+`, `-`, `*`, `/`) per afegir operadors a l'operaciÃ³.
+
+### 3. **Calcular el resultat**
+   - Fes clic al botÃ³ `=` per calcular el resultat de l'operaciÃ³ actual.
+
+### 4. **Esborrar l'operaciÃ³**
+   - Fes clic al botÃ³ `C` per esborrar l'operaciÃ³ i reiniciar la calculadora.
+
+---
+
+## ğŸ“¸ Exemples d'Ãšs i Captures de Pantalla
 
 ### Pantalla inicial
 
-![Calculadora](images/calculadora_1.png)
+![Pantalla inicial](images/calculadora_1.png)
 
-### Realitzant una operació
+### Realitzant una operaciÃ³
 
-![Operació en curs](images/calculadora_2.png)
+![OperaciÃ³ en curs](images/calculadora_2.png)
 
-### Resultat mostrat
+### Resultat de l'operaciÃ³
 
 ![Resultat](images/calculadora_3.png)
 
-## Funcionament intern
+---
 
-### Mètodes principals
+## ğŸ“ Conclusions
 
-1. **Button_Click (Gestiona els botons numèrics):** Afegeix el número premit al `Display` i a l'operació actual.
-2. **Operator_Click (Gestiona els botons d'operadors):** Afegeix l'operador premit a l'operació actual.
-3. **Equals_Click (Calcula el resultat):** Utilitza la classe `DataTable` per calcular l'operació introduïda.
-4. **Clear_Click (Esborra l'operació actual):** Restableix el `Display` i l'operació.
+Aquest projecte Ã©s una **calculadora funcional i senzilla** dissenyada per ser fÃ cil d'usar i accessible. A travÃ©s d'aquest projecte, he aprÃ¨s a treballar amb WPF i a dissenyar una interfÃ­cie d'usuari intuÃ¯tiva. A mÃ©s, he implementat **gestiÃ³ d'errors** per millorar l'experiÃ¨ncia de l'usuari i evitar errors en operacions incorrectes. Els passos segÃ¼ents podrien incloure l'ampliaciÃ³ de la funcionalitat per suportar operacions mÃ©s complexes o la millora de la interfÃ­cie amb animacions o efectes visuals.
 
-### Gestió d'errors
+---
 
-L'aplicació inclou gestió d'errors per a casos com:
-- Operacions mal formatades (p. ex., "5 + =").
-- Divisió per zero, mostrant un missatge d'error adequat ("Div/0 Error").
+## ğŸ“œ LlicÃ¨ncia i Autoria
 
-## Contribució
+- **Autoria:** [Joel Margenet](https://github.com/JoelMargenet)
+- **LlicÃ¨ncia:** Aquest projecte estÃ  llicenciat sota la **LlicÃ¨ncia MIT**. Consulta el fitxer [LICENSE](LICENSE) per a mÃ©s detalls.
 
-Si vols contribuir al projecte, segueix aquests passos:
-1. Fes un **fork** d'aquest repositori.
-2. Crea una nova branca per fer els canvis.
-3. Realitza els canvis i crea un **pull request**.
-
-## Llicència
-
-Aquest projecte està llicenciat sota la llicència MIT - consulta el fitxer [LICENSE](LICENSE) per a més detalls.
