@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculadora", "Calculadora\Calculadora.csproj", "{82B72A2B-7D9E-4DA7-99AA-6764BAC8B4A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PAC5_Calculadora.Tests", "PAC5_Calculadora.Tests\PAC5_Calculadora.Tests.csproj", "{9BF5A8BC-922F-42D1-9D89-C6AA0CBB62BE}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PAC5_Calculadora.Installer", "PAC5_Calculadora.Installer\PAC5_Calculadora.Installer.vdproj", "{05EAE469-0495-4BCE-A8F3-9BA5693950BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,12 @@ Global
 		{82B72A2B-7D9E-4DA7-99AA-6764BAC8B4A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82B72A2B-7D9E-4DA7-99AA-6764BAC8B4A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82B72A2B-7D9E-4DA7-99AA-6764BAC8B4A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BF5A8BC-922F-42D1-9D89-C6AA0CBB62BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BF5A8BC-922F-42D1-9D89-C6AA0CBB62BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BF5A8BC-922F-42D1-9D89-C6AA0CBB62BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BF5A8BC-922F-42D1-9D89-C6AA0CBB62BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05EAE469-0495-4BCE-A8F3-9BA5693950BE}.Debug|Any CPU.ActiveCfg = Debug
+		{05EAE469-0495-4BCE-A8F3-9BA5693950BE}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
