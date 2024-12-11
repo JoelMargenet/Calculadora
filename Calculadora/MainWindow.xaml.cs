@@ -1,32 +1,26 @@
 ﻿using System;
-using System.Data; // Per usar DataTable per a les operacions matemàtiques.
+using System.Data;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Input;
-using System.Windows.Media;
+using System.Text.RegularExpressions;
 
 namespace Calculadora
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
-        private string currentInput = ""; // Per mantenir el que l'usuari està escrivint.
-        private string operation = ""; // Per emmagatzemar l'operació completa.
-        private bool isResultDisplayed = false; // Indica si el resultat ha estat mostrat i es pot començar una nova operació.
+        private string currentInput = ""; // to keep what the user is writing
+        private string operation = ""; // to keep the operation
+        private bool isResultDisplayed = false; // it shows if the result was disp`layed in the screen
 
         public MainWindow()
         {
             InitializeComponent();
         }
 
-        // Gestiona els botons de números.
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             var button = sender as Button;
-            // Si el resultat ha estat mostrat, reinicia l'entrada i l'operació.
             if (isResultDisplayed)
             {
                 operation = "";
@@ -34,51 +28,109 @@ namespace Calculadora
             }
             currentInput += button.Content.ToString();
             operation += button.Content.ToString();
-            Display.Text = operation; // Actualitza el display.
+            Display.Text = operation;
         }
 
-        // Gestiona els botons d'operadors (+, -, *, /).
         private void Operator_Click(object sender, RoutedEventArgs e)
         {
             var button = sender as Button;
-
-            // Evita que dos operadors siguin encadenats (p. ex., "5 + *").
+            // operation to avoid more than one operation at the same time
             if (!string.IsNullOrEmpty(currentInput) || isResultDisplayed)
             {
-                currentInput = ""; // Restableix l'entrada actual.
+                currentInput = ""; 
                 operation += $" {button.Content.ToString()} ";
-                Display.Text = operation; // Actualitza el display.
-                isResultDisplayed = false; // Permet afegir més operadors després de mostrar el resultat.
+                Display.Text = operation;
+                isResultDisplayed = false;
             }
         }
 
-        // Gestiona el botó "=".
         private void Equals_Click(object sender, RoutedEventArgs e)
         {
             try
             {
-                // Usa DataTable per calcular l'operació.
-                var result = new DataTable().Compute(operation, null);
+                // process the Roots and powers first
+                string processedOperation = ProcessRootsAndPowers(operation);
+                processedOperation = processedOperation.Replace(',', '.');
+
+                // Do the operation
+                var result = new DataTable().Compute(processedOperation, null);
                 Display.Text = result.ToString();
-                operation = result.ToString(); // Mostra el resultat com a nou punt de partida.
+                operation = result.ToString();
                 currentInput = "";
-                isResultDisplayed = true; // Marca que el resultat s'ha mostrat, permetent començar una nova operació.
+                isResultDisplayed = true; 
             }
             catch
             {
-                Display.Text = "Error"; // Mostra un error en cas d'entrada no vàlida.
+                Display.Text = "Error"; // Showing error if something is wrong
                 operation = "";
                 currentInput = "";
             }
         }
 
-        // Gestiona el botó "C".
+        private string ProcessRootsAndPowers(string operation)
+        {
+            // doing the roots calculations
+            operation = ProcessSquareRoots(operation);
+
+            // doing the power calculations
+            operation = ProcessPower(operation);
+
+            return operation;
+        }
+
+        private string ProcessPower(string operation)
+        {
+           
+            return Regex.Replace(operation, @"(\d+(\.\d+)?)\^(\d+(\.\d+)?)", match =>
+            {
+                double baseValue = Convert.ToDouble(match.Groups[1].Value);
+                double exponent = Convert.ToDouble(match.Groups[3].Value);
+                return Math.Pow(baseValue, exponent).ToString();
+            });
+        }
+
+        private string ProcessSquareRoots(string operation)
+        {
+           
+            return Regex.Replace(operation, @"√(\d+(\.\d+)?)", match =>
+            {
+                double value = Convert.ToDouble(match.Groups[1].Value);
+                double result = Math.Sqrt(value); 
+
+                return result.ToString("0.###");
+            });
+        }
+            
         private void Clear_Click(object sender, RoutedEventArgs e)
         {
             currentInput = "";
             operation = "";
-            Display.Text = "0"; // Restableix el display.
-            isResultDisplayed = false; // Restableix l'estat després de l'esborrat.
+            Display.Text = "0"; 
+            isResultDisplayed = false; 
+        }
+
+        private void ParenthesisLeft_Click(object sender, RoutedEventArgs e)
+        {
+            operation += "(";
+            Display.Text = operation;
+        }
+
+        private void ParenthesisRight_Click(object sender, RoutedEventArgs e)
+        {
+            operation += ")";
+            Display.Text = operation;
+        }
+
+        private void SquareRoot_Click(object sender, RoutedEventArgs e)
+        {
+            operation += "√";
+            Display.Text = operation;
+        }
+
+        private void Power_Click(object sender, RoutedEventArgs e)
+        {
+            operation += "^";
+            Display.Text = operation;
         }
     }
 }

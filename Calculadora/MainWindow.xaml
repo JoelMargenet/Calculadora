@@ -6,16 +6,13 @@
         xmlns:local="clr-namespace:Calculadora"
         mc:Ignorable="d"
         Background="Black"
-        Title="Calculadora" Height="450" Width="400">
+        Title="Calculadora" Height="500" Width="400">
     <Grid Margin="10">
-        <!-- Display -->
         <TextBox x:Name="Display" HorizontalAlignment="Stretch" VerticalAlignment="Top" 
                  FontSize="28" TextAlignment="Right" IsReadOnly="True" 
                  Margin="0,10,0,10" Height="60" VerticalContentAlignment="Center"
                  Background="black" Foreground="White" BorderThickness="2"/>
-
-        <!-- Buttons -->
-        <Grid VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0,90,0,-60">
+        <Grid Margin="0,90,0,0">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
@@ -30,7 +27,6 @@
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
-            <!-- Styles for Buttons -->
             <Grid.Resources>
                 <Style TargetType="Button">
                     <Setter Property="Template">
@@ -52,30 +48,30 @@
                     <Setter Property="Background" Value="#95A5A6" />
                     <Setter Property="BorderBrush" Value="Gray" />
                 </Style>
-
             </Grid.Resources>
+            <Button Content="√" Grid.Row="0" Grid.Column="0" Background="#1ABC9C" Click="SquareRoot_Click"/>
+            <Button Content="^" Grid.Row="0" Grid.Column="1" Background="#1ABC9C" Click="Power_Click"/>
+            <Button Content="(" Grid.Row="0" Grid.Column="2" Background="#1ABC9C" Click="Button_Click"/>
+            <Button Content=")" Grid.Row="0" Grid.Column="3" Background="#1ABC9C" Click="Button_Click"/>
 
-            <!-- Numbers -->
-            <Button Content="7" Grid.Row="0" Grid.Column="0" Click="Button_Click"/>
-            <Button Content="8" Grid.Row="0" Grid.Column="1" Click="Button_Click"/>
-            <Button Content="9" Grid.Row="0" Grid.Column="2" Click="Button_Click"/>
-            <Button Content="4" Grid.Row="1" Grid.Column="0" Click="Button_Click"/>
-            <Button Content="5" Grid.Row="1" Grid.Column="1" Click="Button_Click"/>
-            <Button Content="6" Grid.Row="1" Grid.Column="2" Click="Button_Click"/>
-            <Button Content="1" Grid.Row="2" Grid.Column="0" Click="Button_Click"/>
-            <Button Content="2" Grid.Row="2" Grid.Column="1" Click="Button_Click"/>
-            <Button Content="3" Grid.Row="2" Grid.Column="2" Click="Button_Click"/>
-            <Button Content="0" Grid.Row="3" Grid.Column="1" Click="Button_Click"/>
+            <Button Content="7" Grid.Row="1" Grid.Column="0" Click="Button_Click"/>
+            <Button Content="8" Grid.Row="1" Grid.Column="1" Click="Button_Click"/>
+            <Button Content="9" Grid.Row="1" Grid.Column="2" Click="Button_Click"/>
+            <Button Content="4" Grid.Row="2" Grid.Column="0" Click="Button_Click"/>
+            <Button Content="5" Grid.Row="2" Grid.Column="1" Click="Button_Click"/>
+            <Button Content="6" Grid.Row="2" Grid.Column="2" Click="Button_Click"/>
+            <Button Content="1" Grid.Row="3" Grid.Column="0" Click="Button_Click"/>
+            <Button Content="2" Grid.Row="3" Grid.Column="1" Click="Button_Click"/>
+            <Button Content="3" Grid.Row="3" Grid.Column="2" Click="Button_Click"/>
+            <Button Content="0" Grid.Row="4" Grid.Column="1" Click="Button_Click"/>
 
-            <!-- Operators -->
-            <Button Content="/" Grid.Row="0" Grid.Column="3" Background="#E74C3C" Click="Operator_Click"/>
-            <Button Content="*" Grid.Row="1" Grid.Column="3" Background="#E74C3C" Click="Operator_Click"/>
-            <Button Content="-" Grid.Row="2" Grid.Column="3" Background="#E74C3C" Click="Operator_Click"/>
-            <Button Content="+" Grid.Row="3" Grid.Column="3" Background="#E74C3C" Click="Operator_Click"/>
+            <Button Content="/" Grid.Row="1" Grid.Column="3" Background="#E74C3C" Click="Operator_Click"/>
+            <Button Content="*" Grid.Row="2" Grid.Column="3" Background="#E74C3C" Click="Operator_Click"/>
+            <Button Content="-" Grid.Row="3" Grid.Column="3" Background="#E74C3C" Click="Operator_Click"/>
+            <Button Content="+" Grid.Row="4" Grid.Column="3" Background="#E74C3C" Click="Operator_Click"/>
 
-            <!-- Special Buttons -->
-            <Button Content="C" Grid.Row="3" Grid.Column="0" Background="#F39C12" Click="Clear_Click"/>
-            <Button Content="=" Grid.Row="3" Grid.Column="2" Background="#F39C12" Click="Equals_Click"/>
+            <Button Content="C" Grid.Row="4" Grid.Column="0" Background="#F39C12" Click="Clear_Click"/>
+            <Button Content="=" Grid.Row="4" Grid.Column="2" Background="#F39C12" Click="Equals_Click"/>
         </Grid>
     </Grid>
 </Window>
