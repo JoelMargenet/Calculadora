@@ -62,7 +62,7 @@ Per executar aquest projecte, cal tenir el següent:
    - Fes clic als botons numèrics (0-9) per afegir números a l'operació.
 
 ### 2. **Afegir operadors**
-   - Fes clic als botons de l'operador (p. ex., `+`, `-`, `*`, `/`) per afegir operadors a l'operació.
+   - Fes clic als botons de l'operador (p. ex., `+`, `-`, `*`, `/`, `√`, `^`, `(`, `)`) per afegir operadors a l'operació.
 
 ### 3. **Calcular el resultat**
    - Fes clic al botó `=` per calcular el resultat de l'operació actual.
@@ -90,7 +90,7 @@ Per executar aquest projecte, cal tenir el següent:
 
 ## 📝 Conclusions <a id="📝-conclusions"></a>
 
-Aquest projecte és una **calculadora funcional i senzilla** dissenyada per ser fàcil d'usar i accessible. A través d'aquest projecte, he après a treballar amb WPF i a dissenyar una interfície d'usuari intuïtiva. A més, he implementat **gestió d'errors** per millorar l'experiència de l'usuari i evitar errors en operacions incorrectes. Els passos següents podrien incloure l'ampliació de la funcionalitat per suportar operacions més complexes o la millora de la interfície amb animacions o efectes visuals.
+Aquest projecte és una **calculadora funcional i senzilla** dissenyada per ser fàcil d'usar i accessible. A través d'aquest projecte, he après a treballar amb WPF i a dissenyar una interfície d'usuari intuïtiva. A més, he implementat **gestió d'errors** per millorar l'experiència de l'usuari i evitar errors en operacions incorrectes. Amb un ús de proves unitaries per controlar millor el funcionament de la nostra calculadora.
 
 ---
 
