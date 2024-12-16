@@ -80,7 +80,7 @@
               "RelativeDocumentMoniker": "Calculadora\\CalculadoraCore.cs",
               "ToolTip": "C:\\Users\\joelm\\source\\repos\\Calculadora\\Calculadora\\CalculadoraCore.cs",
               "RelativeToolTip": "Calculadora\\CalculadoraCore.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAA4wDQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAcwGUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T01:30:48.376Z",
               "EditorCaption": ""
@@ -95,8 +95,7 @@
               "RelativeToolTip": "Calculadora\\AssemblyInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T01:17:22.023Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T01:17:22.023Z"
             },
             {
               "$type": "Document",
@@ -131,8 +130,7 @@
               "RelativeToolTip": "Calculadora\\MainWindow.xaml.cs",
               "ViewState": "AgIAAD0AAAAAAAAAAAAYwEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T01:13:55.258Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T01:13:55.258Z"
             },
             {
               "$type": "Document",
@@ -144,8 +142,7 @@
               "RelativeToolTip": "PAC5_Calculadora.Tests\\CalculadoraCoreTests.cs",
               "ViewState": "AgIAAF4AAAAAAAAAAAA0wHMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T01:49:26.804Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T01:49:26.804Z"
             },
             {
               "$type": "Document",
