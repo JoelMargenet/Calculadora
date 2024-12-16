@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PAC5_Calculadora.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+86f199be74b16f99cc8ebf6f2de3b64d2d9fb595")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d79399ea065bf808b2e1720840a53d9278164e4c")]
 [assembly: System.Reflection.AssemblyProductAttribute("PAC5_Calculadora.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PAC5_Calculadora.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
