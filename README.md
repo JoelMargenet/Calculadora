@@ -31,9 +31,9 @@ Per executar aquest projecte, cal tenir el següent:
 
 ## 🔧 Funcionalitats Principals <a id="🔧-funcionalitats-principals"></a>
 
-- **Operacions bàsiques:** Suma, resta, multiplicació i divisió.
+- **Operacions bàsiques:** Suma, resta, multiplicació, divisió, arrels, exponents i parentesis.
 - **Operacions encadenades:** Pots realitzar diverses operacions de manera contínua.
-- **Gestió d'errors:** Gestió de casos com entrades incorrectes (p. ex., "5 + =") i divisió per zero.
+- **Gestió d'errors:** Gestió de casos com entrades incorrectes (p. ex., "5 + =") i divisió per zero entre altres.
 - **Interfície intuïtiva:** Un disseny clar amb botons arrodonits i colors diferenciats per facilitar l'ús.
 
 ---
